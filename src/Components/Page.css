@@ -1,0 +1,97 @@
+.question{
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.button{
+    width: 100%;
+    margin: 10px;
+    height: 40px;
+    background-color: #bdb306;
+    color: #fff;
+    font-weight: bold;
+    font-size: 17px;
+    border-style: none;
+    border-width: 0;
+    border-radius: 2px;
+}
+.button:hover{
+    background-color: #f8ec10;
+    height: 45px;
+}
+.subheading{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.sub-button{
+    width: 90%;
+    height: 45px;
+    color: #fff;
+    background-color: rgb(79, 222, 79);
+    border-width: 0;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.in-heading{
+    color: rgb(247, 121, 78);
+    font-size: 23px;
+    margin-top: 10px;
+}
+.yellow-bg{
+    font-size: 20px;
+    background-color:#f8ec10 ;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.in-para{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.call{
+    font-weight: bold;
+    margin-top: 10px;
+}
+.rule{
+
+    border-width: 4px;
+}
+.background{
+    background-color: #fff;
+}
+.loading{
+    width: 300px;
+    height: 100px;
+    position: relative;
+    color: #000;
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #fff;
+}
+.loading:before{
+content: '';
+animation: load 10s linear ;
+}
+.loading:before{
+content: 'COMPLETED...!!';
+font-size: 30px;
+}
+@keyframes load{
+    0%{content: 'Reviewing Your Answer...';}
+    30%{content: 'Matching You with the Best Options...';}
+    60%{content: 'Confirming Eligibility...';}
+    90%{content: 'COMPLETED...!!';}
+}
+.rule2{
+    border-width: 5px;
+    color: #000;
+    border-style: solid;
+    margin-bottom: 5%;
+}
